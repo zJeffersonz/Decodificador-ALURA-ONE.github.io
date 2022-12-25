@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    background: #F3F5FC; 
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}.cabecalho img{
+    max-width: 90px;
+    max-height: 70px;
+    width: auto;
+    height: auto;
+}
+.principal{
+    display: flex;
+    padding: 0 10% 10%;
+    gap: 15%;
+}
+.texto-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12%;
+}
+.box-texto{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-end;
+    padding: 2% 0 0 4%;
+}
+.box-texto .texto-entrada{
+    width: 400px;
+    height: 330px;
+}
+.texto-entrada p{
+    display: flex;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 0% 0% 0% 5%;
+    gap: 2%;
+}
+#area-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: #0A3871;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    box-shadow: none;
+    outline: 0;
+    resize: none;
+    overflow: hidden;
+}
+textarea::-webkit-input-placeholder{
+        color: #0A3871;
+        font-size: 20px;
+}
+#resultado{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #FFFFFF;
+    padding: 5%;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+    outline: 0;
+    resize: none;
+    overflow: hidden;
+    color: #0A3871;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+#texto-saida{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #FFFFFF;
+    background: #FFFFFF;
+    align-items: center;
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+}
+#texto-saida h2{
+    text-align: center;
+    font-size: 25px;
+    color: #0A3871;
+    font-weight: bold;
+}
+#texto-saida span{
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+#texto-saida img{
+    max-width:300px;
+    max-height:300px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+.box-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 395PX;
+    MAX-INLINE-SIZE: MAX-CONTENT;
+    gap: 20px;
+}
+.bt-cript{
+    width: 290px;
+    height: 50px;
+    text-decoration: none;
+    color: #D8DFE8;
+    background: #0A3871;
+    border-radius: 24px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.bt-descri{
+    width: 290px;
+    height: 50px;
+    text-decoration: none;
+    color:#0A3871;
+    background: #D8DFE8;
+    border-radius: 24px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+#bt-copiar{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    color:#0A3871;
+    background: #D8DFE8;
+    border-radius: 24px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 5px ;
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+
+@media screen and (max-width:500px){
+   #output{
+      width: 60%;
+      height: 75%;
+      margin-top: 15%;
+   }
+   #input-texto{
+      width: 200px;
+      height: 330px;
+      font-size: 20px;
+  }
+   #output img{
+      max-width:200px;
+      max-height:150px;
+      width: auto;
+      height: auto;
+      margin-top: 4%;
+      margin-left: 5%;
+   }
+   .principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4% 0 0 0%
+   }
+   .texto-button{
+        display: flex;
+        align-items: center;
+        padding: 1%;
+    }
+   .box-texto{
+        display: flex;
+        align-items: center;
+        padding: 2% 0 0 4%;
+   }
+    #entrada {
+        width: 220px;
+        height: 417px;
+    }
+    .box-texto .texto-entrada{
+        width: 369px;
+        height: 417px;
+    }
+    #area-texto{
+        width: 386px;
+        height: 335px;
+        padding: 1% 10% 0 16%;
+        font-size: 15px;
+    }
+    .texto-entrada p{
+        display: flex;
+        font-size: 16px;
+        text-align: center;
+        font-weight: bold;
+        padding: 9% 0% 0% 15%;
+        gap: 1%;
+    }
+    #texto-saida{
+        width: 375px;
+        height: 140px;
+        font-weight: bold;
+        padding: 2% 0 0 24%;
+    }    
+    #texto-saida img{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    .box-buttons{
+        display: flex;
+        flex-direction: column;
+        width: 250PX;
+    }
+    #resultado{
+        width: 357px;
+        height: 90px;
+    }
+    .rodape h3{
+        text-align: -webkit-center;
+        width: 340px;
+        font-weight: bold;
+        font-size: 18px;
+        padding: 0% 0 0 19%;
+    }
+}

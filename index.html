@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="Vector.png" alt="">
+    </header>
+    
+    <main class="principal">
+        <div class="texto-button">
+            <div class="box-texto">
+                <div class="texto-entrada">
+                    <textarea  id="area-texto" placeholder="Digite seu texto aqui..."></textarea>
+                    <p> <img src="!.png" alt=""> Apenas letras maiusculas e sem acento!</p>    
+                </div>
+            </div>
+    
+            
+            <div class="buttons">
+                <div class="box-buttons">
+                   <button  onclick="criptografar()" class="bt-cript">Criptografar</button>
+                   <button  onclick="descriptografar()" class="bt-descri">Descriptografar</button>
+                </div>
+               
+            </div>
+        </div>
+        <div id="texto-saida">
+            <img src="caixa-msg-img.png" alt="" height="330px" width="400px">
+            <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar.</span>
+        </div>
+       
+
+    </main>
+
+    <footer class="rodape">
+       <h3>Desenvolvido por Jefferson dos Santos</h3>
+    </footer>
+
+    <script src="arquivo.js"></script>
+
+</body>
+</html>
