@@ -14,7 +14,7 @@ function criptografar(){
 function descriptografar(){
     var texto = textoDigitado.value;
 
-    var resultadoDesc = texto.replace(/ENTER/g, "E").replace(/IMES/g, "E").replace(/AI/g, "A").replace(/OBER/g, "O").replace(/UFAT/g, "U");
+    var resultadoDesc = texto.replace(/enter/g, "e").replace(/imes/g, "e").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
 
     document.getElementById("texto-saida").innerHTML = '<textarea  id="resultado">'+ resultadoDesc +'</textarea>' +
      '<button id="bt-copiar" onclick="copiar()">Copiar</button>';
