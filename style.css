@@ -61,6 +61,7 @@ body{
     outline: 0;
     resize: none;
     overflow: hidden;
+    text-transform: uppercase;
 }
 textarea::-webkit-input-placeholder{
         color: #0A3871;
@@ -81,6 +82,7 @@ textarea::-webkit-input-placeholder{
     font-family: 'Inter', sans-serif;
     font-size: 10px;
     font-weight: bold;
+    text-transform: uppercase;
 }
 #texto-saida{
     display: flex;
@@ -218,10 +220,10 @@ textarea::-webkit-input-placeholder{
         gap: 1%;
     }
     #texto-saida{
-        width: 375px;
+        width: 322px;
         height: 140px;
         font-weight: bold;
-        padding: 2% 0 0 24%;
+        padding: 2% 0 0 16%;
     }    
     #texto-saida img{
         visibility: hidden;
